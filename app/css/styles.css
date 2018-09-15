@@ -1,0 +1,18 @@
+@charset "UTF-8";
+html {
+  min-height: 100%;
+  position: relative; }
+
+body {
+  /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
+  margin-bottom: 3em;
+  /* 140px  - for the sticky footer */ }
+
+/* footer */
+/* sticky footer  */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  /* 8*14 = 80+32 =112px */ }
