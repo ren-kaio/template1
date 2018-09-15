@@ -1,4 +1,4 @@
 # template1
 
 
-# template example was taken from http://elemisfreebies.com for educational purposes only
+# PSD-example idea was taken from http://elemisfreebies.com for educational purposes only ()
