@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.wrapper {
+  padding-top: 5rem; }
+
 html {
   min-height: 100%;
   position: relative; }
