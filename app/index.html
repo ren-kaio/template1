@@ -22,7 +22,7 @@
     <div class="wrapper row">
 
 
-        <header class="col-lg-10 offset-lg-1 col-lg-10 offset-lg-1">
+        <header class="col-lg-10 offset-lg-1  ">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
 
@@ -148,30 +148,193 @@
                 </div>
             </section>
 
-            <section class="related">
-                <h3>Related posts</h3>
-                <div class="col-lg-4">
+            <section class="related row">
+                <h3 class="col-12">Related posts</h3>
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
 
-                </div>
-                <div class="col-lg-4">
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
 
-                </div>
-                <div class="col-lg-4">
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
 
-                </div>
             </section>
 
             <section class="comments">
                 <h3>4 Thoughts on "A wonderful serenity"</h3>
+
+                <div class="row">
+                    <div class="col-1 pt-4">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-11">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+
+                    <div class="col-1 pt-4 offset-1">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-10">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-1 pt-4">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-11">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+                </div>
+
             </section>
 
             <section class="leaveReply">
+
+                <h3>Leave a reply</h3>
+                <small>Your email address will not be published. Required fields are marked *</small>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name" hidden>Name:</label>
+                        <input type="text" class="form-control col-lg-9" id="name" aria-describedby="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" hidden>Email:</label>
+                        <input type="text" class="form-control col-lg-9" id="email" aria-describedby="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="website" hidden>Wesite:</label>
+                        <input type="text" class="form-control col-lg-9" id="website" aria-describedby="website" placeholder="Website">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="form-control large-textarea" aria-describedby="comment">
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Post comment" />
+                    </div>
+
+                </form>
 
             </section>
 
         </main>
 
-        <footer class="footer">
+        <footer class="footer col-lg-10 offset-lg-1">
+
+            <div class="footer-wrapper row">
+
+                <div class="col-3">
+
+                    <div class="form-group">
+                        <label for="footer-search">search</label>
+                        <input id="footer-search" type="search" placeholder="search" />
+                    </div>
+
+                    <div class="form-group">
+                        <h4>Recent posts</h4>
+                        <ul>
+                            <li>A wonderful serenity</li>
+                            <li>The meridian sun</li>
+                            <li>Gallery format</li>
+                            <li>Gregor Samsa</li>
+                            <li>A life in the day</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h4>twitter</h4>
+                    <p><a href="http://twitter.com/elemisdesign"><i class="fa fa-arrow-right"></i> Follow @elemisdesign </a></p>
+                </div>
+
+                <div class="col-3">
+                    <div class="tags">
+                        <h4>Tags</h4>
+                        <span>blgroll</span>
+                        <span>daily</span>
+                        <span>dialog</span>
+                        <span>gallery</span>
+                    </div>
+
+                    <div class="archive">
+                        <h4>Archive</h4>
+                        <span>May 2012</span>
+                        <span>April 2012</span>
+                    </div>
+
+                </div>
+
+                <div class="col-3">
+
+                    <h4>About</h4>
+                    <p>I am alone,
+                        and feel the charm of existence in this spot,
+                        which was created for the bliss of souls like mine.
+                    </p>
+                    <p>
+                        I  am so happy, my dear friend,
+                        so absorbed in the exquisite sense of mere tranquil existence,
+                        that I neglect my talents.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+            <div class="col-12">
+                Copyright 2012 - Serendipity
+            </div>
+
+
 
         </footer>
 
