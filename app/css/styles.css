@@ -1,6 +1,54 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "MerriweatherRegular";
+  src: url("../fonts/MerriweatherRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 .wrapper {
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  background: #000 url("../img/bg1.jpg") repeat fixed;
+  font-size: .9375rem;
+  font-family: MerriweatherRegular, serif;
+  margin-bottom: 0; }
+
+.header {
+  background: #f3f3f3; }
+
+.navbar-menu {
+  position: relative;
+  height: 2.5rem;
+  background: #b05a5a;
+  text-transform: uppercase;
+  color: #fff; }
+  .navbar-menu .nav-link {
+    color: #f3f3f3 !important;
+    font-weight: bold;
+    font-size: .9375rem; }
+  .navbar-menu .dropdown-toggle::after {
+    display: none; }
+
+.nav-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/menu-bg.png") repeat 5% #b05a5a; }
+
+.breadcrumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .breadcrumb .breadcrumb-item-link {
+    font-size: .875rem; }
+
+.main {
+  margin-top: -1rem;
+  padding: 15px;
+  padding-top: 3rem;
+  background: #f3f3f3; }
 
 .large-textarea {
   height: 12rem; }

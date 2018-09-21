@@ -6,59 +6,339 @@
     <meta name=" viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/main.css">
+
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" /> <!-- оставим так как есть в cdn ? -->
+
+
 </head>
 
-<body>
+<body class="container-fluid">
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">A wonderful serenity</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="wrapper row">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+        <header class="col-lg-10 offset-lg-1  ">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+
+                <img src="img/logo.png" class="img-fluid" alt="Responsive image" />
+
+                <div class="search-links d-inline-block justify-content-end mt-2">
+                    <ul class="contact list-inline ">
+                        <li class="list-inline-item ">
+                            <img src="img/icon-rss.png"/>
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/icon-facebook.png"/>
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/icon-twitter.png"/>
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/icon-dribbble.png"/>
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/icon-linkedin.png"/>
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/icon-pinterest.png"/>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <form class="form-inline my-2 my-lg-0 search-form ">
+                                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Blog post</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Callery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Styles
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Misc</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Columns</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Typography</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item ml-auto"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Photography</a></li>
+                    <li class="breadcrumb-item active mr-auto" aria-current="page">A wonderful serenity</li>
+                </ol>
+            </nav>
+        </header>
+
+        <main class="col-lg-8 offset-lg-2">
+
+            <section>
+                <article>
+                    <header>
+                        <h2>A wonderful serenity</h2>
+                    </header>
+                    <figure>
+                        <figcaption>image | May 21, 2012 | Photography | 4 Comments</figcaption>
+                        <img src="img/art/post1.jpg" />
+                    </figure>
+
+                    <p>
+                        A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                        I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+                        I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+                    </p>
+                    <p>
+                        Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.
+                        Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                        Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                    </p>
+                </article>
+
+
+            </section>
+
+
+            <section>
+                <div class="buttons offset-md-4">
+                    <a href="#" class="btn btn-primary">Prev Post</a>
+                    <a href="#" class="btn btn-primary">Next Post</a>
+                </div>
+            </section>
+
+            <section class="related row">
+                <h3 class="col-12">Related posts</h3>
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
+                    <figcaption>
+                        <h3>Gallery posts</h3>
+                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                    </figcaption>
+                </figure>
+
+            </section>
+
+            <section class="comments">
+                <h3>4 Thoughts on "A wonderful serenity"</h3>
+
+                <div class="row">
+                    <div class="col-1 pt-4">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-11">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+
+                    <div class="col-1 pt-4 offset-1">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-10">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-1 pt-4">
+                        <img class=" img-thumbnail" src="http://0.gravatar.com/avatar/cc7c937d52fca5579a3bd6b403da6bfd?s=80&d=identicon&r=G" alt="user-avatar" />
+                    </div>
+
+                    <div class="card-body col-11">
+                        <h4 class="card-title">Marshall Eriksen</h4>
+                        <p class="card-text">22 May on 2012 at 2:57 pm</p>
+                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Donec id elit non mi porta gravida at eget metus.
+                            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p class="card-text">Reply</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="leaveReply">
+
+                <h3>Leave a reply</h3>
+                <small>Your email address will not be published. Required fields are marked *</small>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name" hidden>Name:</label>
+                        <input type="text" class="form-control col-lg-9" id="name" aria-describedby="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" hidden>Email:</label>
+                        <input type="text" class="form-control col-lg-9" id="email" aria-describedby="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="website" hidden>Wesite:</label>
+                        <input type="text" class="form-control col-lg-9" id="website" aria-describedby="website" placeholder="Website">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="form-control large-textarea" aria-describedby="comment">
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Post comment" />
+                    </div>
+
                 </form>
+
+            </section>
+
+        </main>
+
+        <footer class="footer col-lg-10 offset-lg-1">
+
+            <div class="footer-wrapper row">
+
+                <div class="col-3">
+
+                    <div class="form-group">
+                        <label for="footer-search">search</label>
+                        <input id="footer-search" type="search" placeholder="search" />
+                    </div>
+
+                    <div class="form-group">
+                        <h4>Recent posts</h4>
+                        <ul>
+                            <li>A wonderful serenity</li>
+                            <li>The meridian sun</li>
+                            <li>Gallery format</li>
+                            <li>Gregor Samsa</li>
+                            <li>A life in the day</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h4>twitter</h4>
+                    <p><a href="http://twitter.com/elemisdesign"><i class="fa fa-arrow-right"></i> Follow @elemisdesign </a></p>
+                </div>
+
+                <div class="col-3">
+                    <div class="tags">
+                        <h4>Tags</h4>
+                        <span>blgroll</span>
+                        <span>daily</span>
+                        <span>dialog</span>
+                        <span>gallery</span>
+                    </div>
+
+                    <div class="archive">
+                        <h4>Archive</h4>
+                        <span>May 2012</span>
+                        <span>April 2012</span>
+                    </div>
+
+                </div>
+
+                <div class="col-3">
+
+                    <h4>About</h4>
+                    <p>I am alone,
+                        and feel the charm of existence in this spot,
+                        which was created for the bliss of souls like mine.
+                    </p>
+                    <p>
+                        I  am so happy, my dear friend,
+                        so absorbed in the exquisite sense of mere tranquil existence,
+                        that I neglect my talents.
+                    </p>
+                </div>
+
+
+
             </div>
-        </nav>
 
-    </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
+            <div class="col-12">
+                Copyright 2012 - Serendipity
+            </div>
 
 
-    <script src="js/main.js"></script>
+
+        </footer>
+
+
+        <script src="js/main.js"></script>
+
+    </div>
+
 
 </body>
 </html>
