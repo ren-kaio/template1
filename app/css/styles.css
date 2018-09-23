@@ -5,6 +5,17 @@
   font-style: normal;
   font-weight: normal; }
 
+.credits, .credits .credit-link {
+  font-size: .8125rem;
+  color: #a0a0a0;
+  text-align: center; }
+
+.pic-icon {
+  display: inline-block;
+  background: url("../img/icon-gallery.png") center center no-repeat;
+  width: 1rem;
+  height: 1rem; }
+
 .wrapper {
   padding-top: 5rem;
   background: #000 url("../img/bg1.jpg") repeat fixed;
@@ -19,7 +30,6 @@
   position: relative;
   height: 2.5rem;
   background: #b05a5a;
-  text-transform: uppercase;
   color: #fff; }
   .navbar-menu .nav-link {
     color: #f3f3f3 !important;
@@ -52,6 +62,47 @@
 
 .large-textarea {
   height: 12rem; }
+
+.entry .entry-title {
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #ca6d6d;
+  text-align: left;
+  font-weight: bold;
+  text-align: center; }
+
+.entry .entry-text {
+  color: #6b6b6b; }
+
+.blog-buttons .btn {
+  background: #333 url("../img/button-bg.png") repeat-x;
+  color: #fff;
+  border: none;
+  font-size: .75rem; }
+
+.related .related-heading, .related .gallery-heading {
+  text-transform: uppercase;
+  color: #ca6d6d;
+  text-align: left;
+  font-weight: bold; }
+
+.related .gallery-heading {
+  font-size: .875rem; }
+
+.comments .comments-heading, .comments .card-title {
+  text-transform: uppercase;
+  color: #ca6d6d;
+  text-align: left;
+  font-weight: bold; }
+
+.comments .card-text {
+  color: #6b6b6b; }
+
+.leaveReply .reply-header {
+  text-transform: uppercase;
+  color: #ca6d6d;
+  text-align: left;
+  font-weight: bold; }
 
 html {
   min-height: 100%;
