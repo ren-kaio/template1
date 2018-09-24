@@ -18,7 +18,7 @@
     <div class="wrapper row ">
 
 
-        <header class="col-lg-10 offset-lg-1 header  ">
+        <header class="col-lg-8 offset-lg-2 header  ">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between p-5">
 
@@ -112,24 +112,29 @@
             </nav>
         </header>
 
-        <main class="col-lg-10 offset-lg-1  main">
+        <main class="col-lg-8 offset-lg-2  main">
 
             <section>
-                <article>
-                    <header>
-                        <h2>A wonderful serenity</h2>
+                <article class="entry">
+                    <header class="mt-lg-2">
+                        <h2 class="entry-title ">A wonderful serenity</h2>
                     </header>
-                    <figure>
-                        <figcaption>image | May 21, 2012 | Photography | 4 Comments</figcaption>
-                        <img src="img/art/post1.jpg" />
+                    <figure class="entry-pic">
+                        <figcaption class="credits mt-lg-2 mb-lg-4">
+                            <i class="pic-icon"></i> |
+                            <a class="credit-link" href="#"> May 21, 2012 </a> |
+                            <a  class="credit-link" href="#">Photography </a> |
+                            <a  class="credit-link" href="#"> 4 Comments</a>
+                        </figcaption>
+                        <img class="img-fluid" src="img/art/post1.jpg" />
                     </figure>
 
-                    <p>
+                    <p class="entry-text">
                         A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
                         I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
                         I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
                     </p>
-                    <p>
+                    <p class="entry-text">
                         Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.
                         Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
                         Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
@@ -140,43 +145,58 @@
             </section>
 
 
-            <section>
-                <div class="buttons offset-md-4">
-                    <a href="#" class="btn btn-primary">Prev Post</a>
-                    <a href="#" class="btn btn-primary">Next Post</a>
+            <section class="py-5 px-5">
+                <div class="blog-buttons offset-md-4 ">
+                    <a href="#" class="btn btn-primary px-3">Prev Post</a>
+                    <a href="#" class="btn btn-primary px-3">Next Post</a>
                 </div>
             </section>
 
             <section class="related row">
-                <h3 class="col-12">Related posts</h3>
-                <figure class="col-4">
+                <h3 class="col-12 related-heading pb-4 pt-2">Related posts</h3>
+                <figure class="col-4 related-item">
                     <img src="img/art/gallery-th.jpg" class="embed-responsive" />
                     <figcaption>
-                        <h3>Gallery posts</h3>
-                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                        <h3 class="gallery-heading py-3">Gallery posts</h3>
+                        <span class="credits">
+                            <i class="pic-icon"></i> |
+                            <a href="#" class="credit-link"> May 21, 2012 </a> |
+                            <a href="#" class="credit-link"> Photography </a> |
+                            <a href="#" class="credit-link"> 4 Comments </a>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="col-4">
+                    <img src="img/art/gallery-th.jpg" class="embed-responsive " />
+                    <figcaption>
+                        <h3 class="gallery-heading py-3">Gallery posts</h3>
+                        <span class="credits">
+                            <i class="pic-icon"></i> |
+                            <a href="#" class="credit-link"> May 21, 2012 </a> |
+                            <a href="#" class="credit-link"> Photography </a> |
+                            <a href="#" class="credit-link"> 4 Comments </a>
+                        </span>
                     </figcaption>
                 </figure>
 
                 <figure class="col-4">
                     <img src="img/art/gallery-th.jpg" class="embed-responsive" />
                     <figcaption>
-                        <h3>Gallery posts</h3>
-                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
-                    </figcaption>
-                </figure>
-
-                <figure class="col-4">
-                    <img src="img/art/gallery-th.jpg" class="embed-responsive" />
-                    <figcaption>
-                        <h3>Gallery posts</h3>
-                        <span>image | May 21, 2012 | Photography | 4 Comments</span>
+                        <h3 class="gallery-heading py-3">Gallery posts</h3>
+                        <span class="credits">
+                            <i class="pic-icon"></i> |
+                            <a href="#" class="credit-link"> May 21, 2012 </a> |
+                            <a href="#" class="credit-link"> Photography </a> |
+                            <a href="#" class="credit-link"> 4 Comments </a>
+                        </span>
                     </figcaption>
                 </figure>
 
             </section>
 
             <section class="comments">
-                <h3>4 Thoughts on "A wonderful serenity"</h3>
+                <h3 class="comments-heading">4 Thoughts on "A wonderful serenity"</h3>
 
                 <div class="row">
                     <div class="col-1 pt-4">
@@ -192,7 +212,7 @@
                             Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
                             Aenean lacinia bibendum nulla sed consectetur.
                         </p>
-                        <p class="card-text">Reply</p>
+                        <p class="card-text"><a href="#">Reply</a></p>
                     </div>
 
                     <div class="col-1 pt-4 offset-1">
@@ -208,7 +228,7 @@
                             Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
                             Aenean lacinia bibendum nulla sed consectetur.
                         </p>
-                        <p class="card-text">Reply</p>
+                        <p class="card-text"><a href="#">Reply</a></p>
                     </div>
 
                 </div>
@@ -227,7 +247,7 @@
                             Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
                             Aenean lacinia bibendum nulla sed consectetur.
                         </p>
-                        <p class="card-text">Reply</p>
+                        <p class="card-text"><a href="#">Reply</a></p>
                     </div>
                 </div>
 
@@ -235,7 +255,7 @@
 
             <section class="leaveReply">
 
-                <h3>Leave a reply</h3>
+                <h3 class="reply-header">Leave a reply</h3>
                 <small>Your email address will not be published. Required fields are marked *</small>
 
                 <form>

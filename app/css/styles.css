@@ -17,10 +17,11 @@
   height: 1rem; }
 
 .wrapper {
+  font-family: MerriweatherRegular, serif;
+  font-size: .9375rem;
+  color: #6b6b6b;
   padding-top: 5rem;
   background: #000 url("../img/bg1.jpg") repeat fixed;
-  font-size: .9375rem;
-  font-family: MerriweatherRegular, serif;
   margin-bottom: 0; }
 
 .header {
@@ -72,6 +73,8 @@
   text-align: center; }
 
 .entry .entry-text {
+  font-family: MerriweatherRegular, serif;
+  font-size: .9375rem;
   color: #6b6b6b; }
 
 .blog-buttons .btn {
@@ -89,20 +92,58 @@
 .related .gallery-heading {
   font-size: .875rem; }
 
-.comments .comments-heading, .comments .card-title {
-  text-transform: uppercase;
-  color: #ca6d6d;
-  text-align: left;
-  font-weight: bold; }
-
-.comments .card-text {
-  color: #6b6b6b; }
+.comments {
+  padding: 6rem 2rem; }
+  .comments .comments-heading, .comments .card-title {
+    text-transform: uppercase;
+    color: #ca6d6d;
+    text-align: left;
+    font-weight: bold; }
+  .comments .date {
+    font-size: .75rem; }
+  .comments .card-text {
+    font-family: MerriweatherRegular, serif;
+    font-size: .9375rem;
+    color: #6b6b6b; }
 
 .leaveReply .reply-header {
   text-transform: uppercase;
   color: #ca6d6d;
   text-align: left;
   font-weight: bold; }
+
+.leaveReply .form-comment {
+  font-family: MerriweatherRegular, serif;
+  font-size: .9375rem;
+  color: #6b6b6b;
+  font-size: .75rem; }
+
+.leaveReply .reply-form .btn {
+  background: #333 url("../img/button-bg.png") repeat-x;
+  color: #fff;
+  border: none;
+  font-size: .75rem; }
+
+.leaveReply .reply-form .form-control {
+  position: relative; }
+  .leaveReply .reply-form .form-control::-webkit-input-placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control:-moz-placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control::-moz-placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control:-ms-input-placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control::-ms-input-placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control::placeholder {
+    color: #ca6d6d; }
+  .leaveReply .reply-form .form-control::after {
+    content: "*";
+    position: absolute;
+    right: -5rem;
+    top: 1rem;
+    color: #ca6d6d; }
 
 html {
   min-height: 100%;

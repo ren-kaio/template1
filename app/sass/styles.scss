@@ -13,7 +13,7 @@
 // задаем переменные:
 $heading-color: #ca6d6d;
 $heading-color-darkened: rgba( 176, 90, 90, 1);
-
+$font-regular-color: #6b6b6b;
 
 //задаем повторяющиеся элементы:
 @mixin heading-style {
@@ -30,8 +30,18 @@ $heading-color-darkened: rgba( 176, 90, 90, 1);
 }
 
 @mixin txt-style {
-    color: #6b6b6b;
+  font-family: MerriweatherRegular, serif ;
+  font-size: .9375rem; //15px
+  color: $font-regular-color;
   }
+
+@mixin btn-style {
+  background: #333 url("../img/button-bg.png") repeat-x;
+  color: #fff;
+  border: none;
+  font-size: .75rem;
+
+}
 
 
 
@@ -49,10 +59,9 @@ $heading-color-darkened: rgba( 176, 90, 90, 1);
 
 
 .wrapper {
+  @include txt-style;
   padding-top: 5rem;
   background:  #000 url("../img/bg1.jpg") repeat fixed;
-  font-size: .9375rem; //15px
-  font-family: MerriweatherRegular, serif ;
   margin-bottom: 0;
 }
 
@@ -148,10 +157,8 @@ $heading-color-darkened: rgba( 176, 90, 90, 1);
 
 .blog-buttons {
   .btn {
-    background: #333 url("../img/button-bg.png") repeat-x;
-    color: #fff;
-    border: none;
-    font-size: .75rem;
+
+    @include btn-style;
   }
 
 }
@@ -171,8 +178,13 @@ $heading-color-darkened: rgba( 176, 90, 90, 1);
 
 .comments {
 
+  padding: 6rem 2rem;
   .comments-heading, .card-title {
     @include heading-style;
+  }
+
+  .date {
+    font-size: .75rem; //12px
   }
 
   .card-text {
@@ -190,6 +202,40 @@ $heading-color-darkened: rgba( 176, 90, 90, 1);
 
   }
 
+  .form-comment {
+    @include txt-style;
+    font-size: .75rem; //12px
+
+  }
+
+  .reply-form {
+    .btn {
+      @include btn-style;
+
+    }
+
+    .form-control {
+
+      position: relative;
+
+      &::placeholder {
+        color: $heading-color;
+      }
+
+      &::after { // разобраться почему не работает ???!!!!
+        content: "*";
+        position: absolute;
+        right: -5rem;
+
+        top: 1rem;
+        color: $heading-color;
+      }
+
+    }
+
+
+
+  }
 
 }
 
@@ -203,6 +249,7 @@ html {
   position: relative;
 
 }
+
 body {
   /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
 
