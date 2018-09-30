@@ -48,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="318" column="36" selection-start-line="318" selection-start-column="36" selection-end-line="318" selection-end-column="36" />
+            <state relative-caret-position="17">
+              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="276" column="20" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -77,13 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bread</find>
-      <find>sere</find>
-      <find>upper</find>
-      <find>sear</find>
-      <find>credits</find>
-      <find>inclu</find>
-      <find>credit</find>
       <find>heading-st</find>
       <find>heading-style</find>
       <find>entry-text</find>
@@ -107,6 +100,13 @@
       <find>search</find>
       <find>$</find>
       <find>14</find>
+      <find>post1</find>
+      <find>entry</find>
+      <find>item</find>
+      <find>cred</find>
+      <find>home</find>
+      <find>link</find>
+      <find>reply</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/sass/styles.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/styles.scss" />
       </list>
     </option>
   </component>
@@ -151,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,18 +230,18 @@
       <workItem from="1537682463443" duration="12852000" />
       <workItem from="1537808497511" duration="6772000" />
       <workItem from="1537984042253" duration="2529000" />
-      <workItem from="1538195048976" duration="9873000" />
+      <workItem from="1538195048976" duration="9901000" />
+      <workItem from="1538302710116" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94576000" />
+    <option name="totallyTimeSpent" value="98396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34635416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34635416" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.32943678" />
@@ -267,6 +267,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5712">
+          <caret line="336" column="54" lean-forward="true" selection-start-line="336" selection-start-column="54" selection-end-line="336" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -550,13 +557,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/blog-post.html" />
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="69174" selection-start-line="5" selection-start-column="69174" selection-end-line="5" selection-end-column="69174" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -585,17 +585,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="276" column="20" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="5" column="5471" selection-start-line="5" selection-start-column="5471" selection-end-line="5" selection-end-column="5471" />
+          <folding>
+            <element signature="e#58844#59044#2" expanded="true" />
+            <element signature="e#59252#59401#2" expanded="true" />
+            <element signature="e#59903#60049#2" expanded="true" />
+            <element signature="e#60350#60516#1" expanded="true" />
+            <element signature="e#72112#72355#2" expanded="true" />
+            <element signature="e#73222#73471#2" expanded="true" />
+            <element signature="e#100341#100531#2" expanded="true" />
+            <element signature="e#100577#100767#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="318" column="36" selection-start-line="318" selection-start-column="36" selection-end-line="318" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

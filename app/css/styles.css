@@ -13,6 +13,10 @@ body {
   color: #a0a0a0;
   text-align: center; }
 
+.credit-link:hover {
+  text-decoration: none;
+  color: #b05a5a; }
+
 .pic-icon {
   display: inline-block;
   background: url("../img/icon-gallery.png") center center no-repeat;
@@ -55,7 +59,11 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem; }
   .breadcrumb .breadcrumb-item-link {
-    font-size: .875rem; }
+    font-size: .875rem;
+    color: #ca6d6d; }
+    .breadcrumb .breadcrumb-item-link:hover {
+      text-decoration: none;
+      color: #525252; }
 
 .main {
   margin-top: -1rem;
@@ -107,6 +115,11 @@ body {
     font-family: MerriweatherRegular, serif;
     font-size: .9375rem;
     color: #6b6b6b; }
+  .comments .reply-comment-link {
+    color: #b05a5a; }
+    .comments .reply-comment-link:hover {
+      text-decoration: none;
+      color: #6b6b6b; }
 
 .leaveReply .reply-header {
   text-transform: uppercase;
