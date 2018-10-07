@@ -11,10 +11,11 @@ let cleanCss = require("gulp-clean-css");
 let del = require("del");
 let runSequence = require("run-sequence");
 let autoprefixer = require("gulp-autoprefixer");
+let ejs = require("gulp-ejs");
 
 
 gulp.task('browserSync', function() { //отслеживает изменения и обновляет страницу
-    browserSync({
+    browserSync.init({
         server: {
             baseDir: 'app'
         }
@@ -25,22 +26,19 @@ gulp.task('sass', function() {
     return gulp.src('app/sass/**/*.scss') // берем файлы *.scss из папки sass
         .pipe(sass().on('error', sass.logError)) // компилируем sass в css и отслеживаем ошибки
         .pipe(autoprefixer({ browsers: ['last 50 versions'], cascade: false }) ) // выставляем необходимые вендорные префиксы для браузеров
-        .pipe(gulp.dest('app/css/'))  // направляе скомпилированные из sass css-файлы в указанную папку
+        .pipe(gulp.dest('dist/css/'))  // направляе скомпилированные из sass css-файлы в указанную папку
         .pipe(browserSync.reload({ // перезагрузка страницы браузера
             stream: true
         }));
 });
 
 
-
-gulp.task('useref', function() {
-    return gulp.src("app/*.html")
-        .pipe(gulpIf("*.js", uglify() )) // минификация js
-
-        .pipe(gulpIf("*.css", cleanCss() )) // минификация css
-        .pipe(useref()) // объединение всего css в единый файл и всего js в единый файл
-        .pipe(gulp.dest('dist')); // направляем файлы в нужную директорию
+gulp.task('ejs', function() {
+    return gulp.src('app/views/*.ejs')
+        .pipe(ejs({msg:"ejs processing"}, {}, {ext:'.html'}))
+        .pipe(gulp.dest('dist'));
 });
+
 
 gulp.task('img', function() {
     return gulp.src("app/img/**/*") // берем файлы из папки img
@@ -54,20 +52,26 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('clean:dist', function() {
-    del(['dist/**/*',  '!dist/images', '!dist/images/**/*']); // удаляем лишние промежуточные файлы, кроме изображений
+    del(['dist/**/*', '!dist/css', '!dist/images', '!dist/images/**/*']); // удаляем лишние промежуточные файлы, кроме изображений
 });
 
 gulp.task('clean', function() {
     del('dist'); // удаляем лишние промежуточные файлы
 });
 
-gulp.task( 'watch', ['browserSync', 'sass'], function() { //следим за изменениями в файлах и перезагружаем браузер при необходимости
+gulp.task( 'watch', ['browserSync', 'sass', 'ejs'], function() { //следим за изменениями в файлах и перезагружаем браузер при необходимости
         gulp.watch( 'app/sass/**/*.scss', ['sass']);
-        gulp.watch('app/*.html', browserSync.reload);
+        gulp.watch( 'app/ejs/**/*.ejs', ['ejs']);
         gulp.watch('app/js/**/*.js', browserSync.reload);
+
     }
 );
 
 gulp.task('build', function() { // сборка проекта
-    runSequence( 'clean:dist',  'sass', 'useref', ['fonts', 'img'] );  // прогоняем в нужной последовательности
+    runSequence( 'clean:dist',  'sass', 'ejs' , ['fonts', 'img'] );  // прогоняем в нужной последовательности
+});
+
+gulp.task('default', function() {
+    runSequence( 'build',  'watch' );  // прогоняем в нужной последовательности
+
 });
