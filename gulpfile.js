@@ -17,7 +17,7 @@ let ejs = require("gulp-ejs");
 gulp.task('browserSync', function() { //отслеживает изменения и обновляет страницу
     browserSync.init({
         server: {
-            baseDir: 'app'
+            baseDir: 'dist'
         }
     })
 });
