@@ -17,7 +17,7 @@ let ejs = require("gulp-ejs");
 gulp.task('browserSync', function() { //отслеживает изменения и обновляет страницу
     browserSync.init({
         server: {
-            baseDir: 'dist'
+            baseDir: 'app'
         }
     })
 });
@@ -26,6 +26,7 @@ gulp.task('sass', function() {
     return gulp.src('app/sass/**/*.scss') // берем файлы *.scss из папки sass
         .pipe(sass().on('error', sass.logError)) // компилируем sass в css и отслеживаем ошибки
         .pipe(autoprefixer({ browsers: ['last 50 versions'], cascade: false }) ) // выставляем необходимые вендорные префиксы для браузеров
+        .pipe(gulp.dest('app/css/'))  // направляе скомпилированные из sass css-файлы в указанную папку
         .pipe(gulp.dest('dist/css/'))  // направляе скомпилированные из sass css-файлы в указанную папку
         .pipe(browserSync.reload({ // перезагрузка страницы браузера
             stream: true
@@ -36,18 +37,24 @@ gulp.task('sass', function() {
 gulp.task('ejs', function() {
     return gulp.src('app/views/*.ejs')
         .pipe(ejs({msg:"ejs processing"}, {}, {ext:'.html'}))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('app'))
+        .pipe(gulp.dest('dist'))
+        .pipe(browserSync.reload({ // перезагрузка страницы браузера
+            stream: true
+        }));
 });
 
 
 gulp.task('img', function() {
     return gulp.src("app/img/**/*") // берем файлы из папки img
         .pipe(cache(imagemin() ) ) // минификация файлов
+        .pipe(gulp.dest("app/img")) // направляем файлы в нужную директорию
         .pipe(gulp.dest("dist/img")) // направляем файлы в нужную директорию
 });
 
 gulp.task('fonts', function() {
     return gulp.src("app/fonts/**/*") // берем файлы шрифтов
+        .pipe(gulp.dest("app/fonts")) // направляем файлы в нужную директорию
         .pipe(gulp.dest("dist/fonts")) // направляем файлы в нужную директорию
 });
 
@@ -61,7 +68,7 @@ gulp.task('clean', function() {
 
 gulp.task( 'watch', ['browserSync', 'sass', 'ejs'], function() { //следим за изменениями в файлах и перезагружаем браузер при необходимости
         gulp.watch( 'app/sass/**/*.scss', ['sass']);
-        gulp.watch( 'app/ejs/**/*.ejs', ['ejs']);
+        gulp.watch( 'app/views/**/*.ejs', ['ejs']);
         gulp.watch('app/js/**/*.js', browserSync.reload);
 
     }

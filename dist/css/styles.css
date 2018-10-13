@@ -74,18 +74,20 @@ body {
 .large-textarea {
   height: 12rem; }
 
-.entry .entry-title {
-  text-transform: uppercase;
-  text-transform: uppercase;
-  color: #ca6d6d;
-  text-align: left;
-  font-weight: bold;
-  text-align: center; }
-
-.entry .entry-text {
-  font-family: MerriweatherRegular, serif;
-  font-size: .9375rem;
-  color: #6b6b6b; }
+.entry {
+  padding-bottom: 3rem; }
+  .entry .entry-title {
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: #ca6d6d;
+    text-align: left;
+    font-weight: bold;
+    text-align: center; }
+  .entry .entry-text {
+    font-family: MerriweatherRegular, serif;
+    font-size: .9375rem;
+    color: #6b6b6b;
+    text-align: justify; }
 
 .blog-buttons .btn {
   background: #333 url("../img/button-bg.png") repeat-x;
@@ -159,6 +161,13 @@ body {
     right: -5rem;
     top: 1rem;
     color: #ca6d6d; }
+
+.welcome-txt {
+  padding-bottom: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 2rem;
+  color: #9e9e9e; }
 
 html {
   min-height: 100%;

@@ -3,11 +3,78 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2bd387-7488-43c9-b728-f28ede89643e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blogpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/arrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery-th.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery-th.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery1-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery1-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery10-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery10-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery2-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery2-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery3-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery3-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery4-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery4-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery5-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery5-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery6-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery6-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery7-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery7-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery8-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery8-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery9-full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery9-full.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/gallery9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/gallery9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/post1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/post1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/post2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/post2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/art/post3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/art/post3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/button-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/button-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dark-bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/dark-bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/footer-line.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/footer-line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-article.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-article.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-audio.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-audio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-digg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-digg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-dribbble.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-dribbble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-featured.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-featured.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-flickr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-forrst.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-forrst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-gallery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-gallery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-google.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-lastfm.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-lastfm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-link.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-pinterest.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-pinterest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-quote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-rss.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-rss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-search.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-skype.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-skype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-tumblr.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-tumblr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-video.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-vimeo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-vimeo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon-youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/icon-youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/light-bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/light-bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/menu-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/menu-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/nav-arrows-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/nav-arrows-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/nav-arrows-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/nav-arrows-light.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogpost.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogpost.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blogpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
@@ -23,29 +90,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="791">
+              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="179" column="26" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
+            <state relative-caret-position="621">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogpost.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/blogpost.html">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="388" column="6" lean-forward="true" selection-start-line="388" selection-start-column="6" selection-end-line="388" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="5" column="5312" selection-start-line="5" selection-start-column="5312" selection-end-line="5" selection-end-column="5312" />
+              <folding>
+                <element signature="e#58844#59044#2" expanded="true" />
+                <element signature="e#59252#59401#2" expanded="true" />
+                <element signature="e#59903#60049#2" expanded="true" />
+                <element signature="e#60350#60516#1" expanded="true" />
+                <element signature="e#72112#72355#2" expanded="true" />
+                <element signature="e#73222#73471#2" expanded="true" />
+                <element signature="e#100341#100531#2" expanded="true" />
+                <element signature="e#100577#100767#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogpost.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/blogpost.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -53,8 +139,8 @@
       <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/partials/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+            <state relative-caret-position="281">
+              <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -71,8 +157,8 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="330">
+              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -88,8 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>txt</find>
-      <find>btn</find>
       <find>form-control</find>
       <find>after</find>
       <find>footer-bg</find>
@@ -100,7 +184,6 @@
       <find>$</find>
       <find>14</find>
       <find>post1</find>
-      <find>entry</find>
       <find>item</find>
       <find>cred</find>
       <find>home</find>
@@ -118,6 +201,9 @@
       <find>reload</find>
       <find>ejs</find>
       <find>app</find>
+      <find>header</find>
+      <find>txt-style</find>
+      <find>entry</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,11 +227,11 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/views/header.ejs" />
         <option value="$PROJECT_DIR$/app/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/views/blogpost.ejs" />
         <option value="$PROJECT_DIR$/app/sass/styles.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/views/partials/header.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/views/index.ejs" />
       </list>
     </option>
@@ -279,12 +365,13 @@
       <workItem from="1538512767961" duration="284000" />
       <workItem from="1538827858806" duration="13721000" />
       <workItem from="1538893642770" duration="10754000" />
-      <workItem from="1539365982663" duration="5069000" />
+      <workItem from="1539365982663" duration="5153000" />
+      <workItem from="1539449969022" duration="7544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134022000" />
+    <option name="totallyTimeSpent" value="141650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -471,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="5471" selection-start-line="5" selection-start-column="5471" selection-end-line="5" selection-end-column="5471" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/2017training/YelpCamp/YelpCamp-v1/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -541,24 +621,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/app/blogpost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="689">
+          <caret line="388" column="6" lean-forward="true" selection-start-line="388" selection-start-column="6" selection-end-line="388" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogpost.ejs">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+        <state relative-caret-position="791">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -569,24 +642,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/blogpost.html">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="388" column="6" lean-forward="true" selection-start-line="388" selection-start-column="6" selection-end-line="388" selection-end-column="6" />
+        <state relative-caret-position="281">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogpost.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="5312" selection-start-line="5" selection-start-column="5312" selection-end-line="5" selection-end-column="5312" />
+          <folding>
+            <element signature="e#58844#59044#2" expanded="true" />
+            <element signature="e#59252#59401#2" expanded="true" />
+            <element signature="e#59903#60049#2" expanded="true" />
+            <element signature="e#60350#60516#1" expanded="true" />
+            <element signature="e#72112#72355#2" expanded="true" />
+            <element signature="e#73222#73471#2" expanded="true" />
+            <element signature="e#100341#100531#2" expanded="true" />
+            <element signature="e#100577#100767#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="179" column="26" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="621">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
         </state>
       </provider>
     </entry>

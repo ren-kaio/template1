@@ -162,6 +162,7 @@ body {
 //blog-entry styles
 .entry {
 
+  padding-bottom: 3rem;
 
   .entry-title {
     text-transform: uppercase;
@@ -172,6 +173,7 @@ body {
 
   .entry-text {
     @include txt-style;
+    text-align: justify;
 
   }
 
@@ -283,6 +285,16 @@ body {
 
 
   }
+
+}
+
+
+.welcome-txt {
+  padding-bottom: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 2rem;
+  color: lighten($font-regular-color, 20%);
 
 }
 
