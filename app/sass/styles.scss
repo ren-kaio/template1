@@ -172,13 +172,19 @@ body {
     text-transform: uppercase;
     @include heading-style;
     text-align: center;
+    padding-bottom: 1rem;
 
   }
 
   .entry-text {
     @include txt-style;
     text-align: justify;
+    padding-bottom: 1rem;
+  }
 
+  .entry-img-container {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 .videoframe {

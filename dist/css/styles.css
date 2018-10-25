@@ -82,12 +82,17 @@ body {
     color: #ca6d6d;
     text-align: left;
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 1rem; }
   .entry .entry-text {
     font-family: MerriweatherRegular, serif;
     font-size: .9375rem;
     color: #6b6b6b;
-    text-align: justify; }
+    text-align: justify;
+    padding-bottom: 1rem; }
+  .entry .entry-img-container {
+    padding-left: 0;
+    padding-right: 0; }
   .entry .videoframe {
     border: none; }
   .entry .dial1 {
