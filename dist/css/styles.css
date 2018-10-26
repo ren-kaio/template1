@@ -182,6 +182,12 @@ body {
   line-height: 2rem;
   color: #9e9e9e; }
 
+.text-title {
+  text-transform: uppercase;
+  color: #ca6d6d;
+  text-align: left;
+  font-weight: bold; }
+
 html {
   min-height: 100%;
   position: relative; }
