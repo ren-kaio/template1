@@ -59,6 +59,11 @@ $dial-bg2: rgb(244, 244, 244 );
 
 body {
   background:  #000 url("../img/bg1.jpg") repeat fixed;
+
+  .main, .header, .breadcrumb, .navbar {
+    background: #fff !important;
+
+  }
 }
 
 
@@ -138,6 +143,7 @@ body {
       color: darken($font-regular-color, 10%);
     }
   }
+
 
 }
 
@@ -330,6 +336,34 @@ body {
 }
 
 //------------------------
+
+
+// CONTACT PAGE
+
+.contact-section {
+  line-height: 1.8rem;
+
+  .reply-form {
+    padding: 2rem;
+    background: #eee;
+    margin-bottom: 2rem;
+
+  }
+
+
+  .large-textarea {
+    height: 12rem;
+  }
+}
+
+.form-contact::placeholder {
+  color: $font-regular-color !important;
+}
+
+//------------------------
+
+
+
 
 // FOOTER
 

@@ -7,6 +7,8 @@
 
 body {
   background: #000 url("../img/bg1.jpg") repeat fixed; }
+  body .main, body .header, body .breadcrumb, body .navbar {
+    background: #fff !important; }
 
 .credits, .credits .credit-link {
   font-size: .8125rem;
@@ -187,6 +189,33 @@ body {
   color: #ca6d6d;
   text-align: left;
   font-weight: bold; }
+
+.contact-section {
+  line-height: 1.8rem; }
+  .contact-section .reply-form {
+    padding: 2rem;
+    background: #eee;
+    margin-bottom: 2rem; }
+  .contact-section .large-textarea {
+    height: 12rem; }
+
+.form-contact::-webkit-input-placeholder {
+  color: #6b6b6b !important; }
+
+.form-contact:-moz-placeholder {
+  color: #6b6b6b !important; }
+
+.form-contact::-moz-placeholder {
+  color: #6b6b6b !important; }
+
+.form-contact:-ms-input-placeholder {
+  color: #6b6b6b !important; }
+
+.form-contact::-ms-input-placeholder {
+  color: #6b6b6b !important; }
+
+.form-contact::placeholder {
+  color: #6b6b6b !important; }
 
 html {
   min-height: 100%;
