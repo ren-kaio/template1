@@ -363,6 +363,40 @@ body {
 //------------------------
 
 
+// TYPOGRAPHY PAGE
+ .highlight1 {
+   color: $heading-color;
+   text-decoration: underline dotted $heading-color;
+ }
+ .highlight2 {
+   text-decoration: underline dotted $heading-color;
+ }
+
+.list {
+  text-align: left !important;
+  margin-left: 1.5rem;
+}
+
+.main-typo {
+ padding: 2.5rem;
+  text-align: justify;
+}
+
+.typo-txt {
+  &:first-letter {
+    font-size: 2.5rem;
+    float: left;
+    padding: .3rem;
+
+
+
+  }
+ }
+
+//------------------------
+
+
+
 
 
 // FOOTER

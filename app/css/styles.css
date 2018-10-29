@@ -217,6 +217,30 @@ body {
 .form-contact::placeholder {
   color: #6b6b6b !important; }
 
+.highlight1 {
+  color: #ca6d6d;
+  -webkit-text-decoration: underline dotted #ca6d6d;
+  -moz-text-decoration: underline dotted #ca6d6d;
+  text-decoration: underline dotted #ca6d6d; }
+
+.highlight2 {
+  -webkit-text-decoration: underline dotted #ca6d6d;
+  -moz-text-decoration: underline dotted #ca6d6d;
+  text-decoration: underline dotted #ca6d6d; }
+
+.list {
+  text-align: left !important;
+  margin-left: 1.5rem; }
+
+.main-typo {
+  padding: 2.5rem;
+  text-align: justify; }
+
+.typo-txt:first-letter {
+  font-size: 2.5rem;
+  float: left;
+  padding: .3rem; }
+
 html {
   min-height: 100%;
   position: relative; }
