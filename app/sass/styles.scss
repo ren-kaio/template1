@@ -372,13 +372,17 @@ body {
    text-decoration: underline dotted $heading-color;
  }
 
-.list {
+.list, .typo-title {
   text-align: left !important;
+}
+
+.list {
   margin-left: 1.5rem;
+
 }
 
 .main-typo {
- padding: 2.5rem;
+ padding: 3rem;
   text-align: justify;
 }
 
@@ -387,9 +391,6 @@ body {
     font-size: 2.5rem;
     float: left;
     padding: .3rem;
-
-
-
   }
  }
 

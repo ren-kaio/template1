@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/typography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/typography.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/typography.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blogpost — копия.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/typography.html" afterDir="false" />
     </list>
@@ -96,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typography.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="typography.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="77">
+              <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -114,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="370" column="9" lean-forward="true" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+            <state relative-caret-position="466">
+              <caret line="385" column="22" lean-forward="true" selection-start-line="385" selection-start-column="22" selection-end-line="385" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -195,8 +194,8 @@
         <option value="$PROJECT_DIR$/app/views/about.ejs" />
         <option value="$PROJECT_DIR$/app/views/contact.ejs" />
         <option value="$PROJECT_DIR$/app/views/partials/header.ejs" />
-        <option value="$PROJECT_DIR$/app/sass/styles.scss" />
         <option value="$PROJECT_DIR$/app/views/typography.ejs" />
+        <option value="$PROJECT_DIR$/app/sass/styles.scss" />
       </list>
     </option>
   </component>
@@ -337,11 +336,12 @@
       <workItem from="1540576609765" duration="7356000" />
       <workItem from="1540640244638" duration="7315000" />
       <workItem from="1540836045823" duration="4534000" />
+      <workItem from="1540920188507" duration="1008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174167000" />
+    <option name="totallyTimeSpent" value="175175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -642,17 +642,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="466">
+          <caret line="385" column="22" lean-forward="true" selection-start-line="385" selection-start-column="22" selection-end-line="385" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="370" column="9" lean-forward="true" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+        <state relative-caret-position="77">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
         </state>
       </provider>
     </entry>

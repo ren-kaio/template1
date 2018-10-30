@@ -228,12 +228,14 @@ body {
   -moz-text-decoration: underline dotted #ca6d6d;
   text-decoration: underline dotted #ca6d6d; }
 
+.list, .typo-title {
+  text-align: left !important; }
+
 .list {
-  text-align: left !important;
   margin-left: 1.5rem; }
 
 .main-typo {
-  padding: 2.5rem;
+  padding: 3rem;
   text-align: justify; }
 
 .typo-txt:first-letter {
