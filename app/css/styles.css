@@ -243,6 +243,9 @@ body {
   float: left;
   padding: .3rem; }
 
+.smaller {
+  font-size: .92rem; }
+
 html {
   min-height: 100%;
   position: relative; }
