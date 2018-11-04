@@ -404,8 +404,111 @@ body {
 
 //------------------------
 
+// COLUMNS2-FLEXBOX PAGE STYLES:
+// extra part - flexbox styles
+
+.flex-container1 {
+  display: flex;
+  height: 500px;
+  width: 1111px;
+  background: #0b2e13;
+
+}
+
+.child {
+  width: 32px;
+  height: 88px;
+  background: #4e555b;
+  margin: auto; // flexbox magic - ровно по центру
+
+}
 
 
+.flex-container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.flex-item {
+  width: 200px;
+  height: 120px;
+
+}
+
+
+//------------------------
+
+
+// MISC PAGE
+
+
+// добавляем свойств к нативным стилям бутстрапа
+ .tab-pane {
+   padding: 1.2rem;
+   background:#eee;
+   border: none;
+ }
+
+ .nav-link {
+
+   @include heading-style;
+   color: $font-regular-color;
+
+ }
+
+.nav-item>.active {
+  background:#eee !important;
+}
+
+.toggle {
+    background:#eee !important;
+    & .nav-text {
+      display: block;
+    }
+    &:hover {
+      color: $font-regular-color;
+    }
+
+
+  .toggle-btn {
+
+    @include heading-style;
+    color: $font-regular-color;
+
+    & + .toggle-text {
+      display: none;
+    }
+
+    &.active {
+      background: darken(#eee, 15%) !important;
+
+    }
+
+    &.active + .toggle-text {
+      display: block;
+    }
+
+  }
+
+
+    /*
+
+    &.active {
+      color: $font-regular-color;
+
+      & .nav-text {
+        display: block;
+      }
+    }
+    */
+
+
+}
+
+
+//---------
 
 
 // FOOTER
