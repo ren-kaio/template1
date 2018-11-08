@@ -1,3 +1,5 @@
+// MapInit - инициализация карт
+
 function initialize() {
     var mapOptions = {
         center: new google.maps.LatLng(28.1823294, -82.352912),

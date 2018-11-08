@@ -64,7 +64,7 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-menu ">
-            <div class="nav-wrapper">
+            <div class="nav-wrapper row">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -73,9 +73,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto ml-auto">
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbar1Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbar1Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Blog
                                 <span class="sr-only">(current)</span></a>
+
                             <div class="dropdown-menu" aria-labelledby="navbar1Dropdown">
                                 <a class="dropdown-item" href="blogpost.html">Blog post</a>
                             </div>
@@ -129,9 +130,21 @@
                     <header class="mt-lg-2">
                         <h2 class="entry-title ">Contact</h2>
                     </header>
-                    <figure class="entry-pic text-center">
-                        <img class="img-fluid pic" src="img/art/post1.jpg" />
-                    </figure>
+
+                    <section class="entry">
+
+
+                        <div id="map-canvas"></div>
+
+                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA"></script>
+                        <script type="text/javascript" src="../js/mapInit.js"></script>
+
+                        <!--
+                        в консоли - ошибка - нужно обновить API key, но их нужно покупать за отд плату
+                        -->
+
+                    </section>
+
                 </article>
 
 
