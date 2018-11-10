@@ -59,6 +59,16 @@ $dial-bg2: rgb(244, 244, 244 );
   color: #fff;
   border: none;
   font-size: .75rem;
+  opacity: .8;
+
+  &.pressed {
+    opacity: 1;
+
+  }
+
+  &:hover {
+    opacity: 1;
+  }
 
 }
 
@@ -92,6 +102,31 @@ body {
 }
 
 
+
+
+.pic-icon-pen {
+  background: url("../img/icon-article.png") center center no-repeat;
+}
+
+.pic-icon-quote {
+  background: url("../img/icon-quote.png") center center no-repeat;
+}
+
+.pic-icon-chat {
+  background: url("../img/icon-chat.png") center center no-repeat;
+}
+
+.pic-icon-video {
+  background: url("../img/icon-video.png") center center no-repeat;
+}
+.pic-icon-audio {
+  background: url("../img/icon-audio.png") center center no-repeat;
+}
+.pic-icon-link {
+  background: url("../img/icon-link.png") center center no-repeat;
+}
+
+
 .wrapper {
   @include txt-style;
   padding-top: 5rem;
@@ -117,10 +152,50 @@ body {
     font-weight: bold;
     //Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5.
     font-size: .9375rem; //15px
+    transition-property: color;
+    transition-duration: .6s;
+
+    &:hover {
+      color: darken(#f3f3f3, 70%) !important;
+
+    }
 
   }
   .dropdown-toggle::after {
   display: none;
+  }
+
+  // чуть-чуть переопределяем нативные стили бутстрапа:
+  .dropdown-menu {
+    background: #3c3c3c;
+    min-width: 7rem;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+
+    .dropdown-divider {
+    border-top: 1px solid darken(#3c3c3c,10%) ;
+      padding:0;
+      margin: 0;
+
+    }
+
+    .dropdown-item {
+      font-size: .9375rem;
+      font-family: "MarketDecoRegular", sans-serif ;
+      color: #f3f3f3;
+      padding-right: 0;
+      padding-left: .4rem;
+      text-transform: uppercase;
+      margin: 0;
+      transition-property: background;
+      transition-duration: .8s;
+
+      &:hover {
+        background: darken(#f3f3f3, 80%);
+      }
+
+    }
   }
 
 }
@@ -197,8 +272,40 @@ body {
   }
 
   .entry-img-container {
+    list-style: none;
     padding-left: 0;
     padding-right: 0;
+
+
+    .hover-helper {
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      transition-property: background;
+      transition-duration: 1s;
+
+      &:hover {
+        cursor: pointer;
+        background: rgba(0,0,0, 0.7);
+
+        .fa-plus-circle {
+          color: #ccc;
+        }
+
+      }
+
+      .fa-plus-circle {
+        font-size: 1.5rem;
+        margin-top: 37%;
+        color: transparent;
+        text-align: center;
+
+      }
+    }
+
+
   }
 
 .videoframe {
@@ -226,6 +333,8 @@ body {
   .btn {
 
     @include btn-style;
+
+
   }
 
 }

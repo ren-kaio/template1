@@ -31,6 +31,24 @@ body {
   width: 1rem;
   height: 1rem; }
 
+.pic-icon-pen {
+  background: url("../img/icon-article.png") center center no-repeat; }
+
+.pic-icon-quote {
+  background: url("../img/icon-quote.png") center center no-repeat; }
+
+.pic-icon-chat {
+  background: url("../img/icon-chat.png") center center no-repeat; }
+
+.pic-icon-video {
+  background: url("../img/icon-video.png") center center no-repeat; }
+
+.pic-icon-audio {
+  background: url("../img/icon-audio.png") center center no-repeat; }
+
+.pic-icon-link {
+  background: url("../img/icon-link.png") center center no-repeat; }
+
 .wrapper {
   font-family: MerryWeatherRegular, sans-serif;
   font-size: .9375rem;
@@ -50,9 +68,48 @@ body {
   .navbar-menu .nav-link {
     color: #f3f3f3 !important;
     font-weight: bold;
-    font-size: .9375rem; }
+    font-size: .9375rem;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    -moz-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: .6s;
+    -moz-transition-duration: .6s;
+    -o-transition-duration: .6s;
+    transition-duration: .6s; }
+    .navbar-menu .nav-link:hover {
+      color: #414141 !important; }
   .navbar-menu .dropdown-toggle::after {
     display: none; }
+  .navbar-menu .dropdown-menu {
+    background: #3c3c3c;
+    min-width: 7rem;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0; }
+    .navbar-menu .dropdown-menu .dropdown-divider {
+      border-top: 1px solid #232323;
+      padding: 0;
+      margin: 0; }
+    .navbar-menu .dropdown-menu .dropdown-item {
+      font-size: .9375rem;
+      font-family: "MarketDecoRegular", sans-serif;
+      color: #f3f3f3;
+      padding-right: 0;
+      padding-left: .4rem;
+      text-transform: uppercase;
+      margin: 0;
+      -webkit-transition-property: background;
+      -o-transition-property: background;
+      -moz-transition-property: background;
+      transition-property: background;
+      -webkit-transition-duration: .8s;
+      -moz-transition-duration: .8s;
+      -o-transition-duration: .8s;
+      transition-duration: .8s; }
+      .navbar-menu .dropdown-menu .dropdown-item:hover {
+        background: #272727; }
 
 .nav-wrapper {
   position: absolute;
@@ -101,8 +158,33 @@ body {
     text-align: justify;
     padding-bottom: 1rem; }
   .entry .entry-img-container {
+    list-style: none;
     padding-left: 0;
     padding-right: 0; }
+    .entry .entry-img-container .hover-helper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-transition-property: background;
+      -o-transition-property: background;
+      -moz-transition-property: background;
+      transition-property: background;
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s; }
+      .entry .entry-img-container .hover-helper:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.7); }
+        .entry .entry-img-container .hover-helper:hover .fa-plus-circle {
+          color: #ccc; }
+      .entry .entry-img-container .hover-helper .fa-plus-circle {
+        font-size: 1.5rem;
+        margin-top: 37%;
+        color: transparent;
+        text-align: center; }
   .entry .videoframe {
     border: none; }
   .entry .dial1 {
@@ -116,7 +198,12 @@ body {
     background: #333 url("../img/button-bg.png") repeat-x;
     color: #fff;
     border: none;
-    font-size: .75rem; }
+    font-size: .75rem;
+    opacity: .8; }
+    .blog-buttons .btn.pressed {
+      opacity: 1; }
+    .blog-buttons .btn:hover {
+      opacity: 1; }
 
 .related .related-heading, .related .gallery-heading {
   text-transform: uppercase;
@@ -164,7 +251,12 @@ body {
   background: #333 url("../img/button-bg.png") repeat-x;
   color: #fff;
   border: none;
-  font-size: .75rem; }
+  font-size: .75rem;
+  opacity: .8; }
+  .leaveReply .reply-form .btn.pressed {
+    opacity: 1; }
+  .leaveReply .reply-form .btn:hover {
+    opacity: 1; }
 
 .leaveReply .reply-form .form-control {
   position: relative; }
