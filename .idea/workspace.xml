@@ -3,30 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2bd387-7488-43c9-b728-f28ede89643e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blogpost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/columns2-flexbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/columns2-flexbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/misc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contact.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blogpost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/columns2-flexbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/columns2-flexbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/misc.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/misc.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/misc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/typography.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +28,8 @@
       <file leaf-file-name="contact.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contact.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state relative-caret-position="128">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -52,7 +37,7 @@
       <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/partials/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="434">
               <caret line="106" column="58" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="60" />
             </state>
           </provider>
@@ -61,7 +46,7 @@
       <file leaf-file-name="typography.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="17">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
@@ -71,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/columns.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -79,8 +64,8 @@
       <file leaf-file-name="misc.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/misc.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="113" column="14" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+            <state relative-caret-position="536">
+              <caret line="122" selection-start-line="122" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -88,8 +73,8 @@
       <file leaf-file-name="mapInit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/mapInit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -103,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="152">
+              <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="additionalCalc.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/additionalCalc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,8 +109,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="299" column="24" lean-forward="true" selection-start-line="299" selection-start-column="24" selection-end-line="299" selection-end-column="24" />
+            <state relative-caret-position="385">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -133,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header</find>
-      <find>txt-style</find>
       <find>block</find>
       <find>butt</find>
       <find>row</find>
@@ -161,8 +153,10 @@
       <find>entry</find>
       <find>pic</find>
       <find>btn-styl</find>
-      <find>nav-link</find>
       <find>blog</find>
+      <find>nav-link</find>
+      <find>conta</find>
+      <find>entry-text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,13 +189,14 @@
         <option value="$PROJECT_DIR$/app/views/columns.ejs" />
         <option value="$PROJECT_DIR$/app/views/columns2-flexbox.ejs" />
         <option value="$PROJECT_DIR$/app/sass/mapInit.js" />
-        <option value="$PROJECT_DIR$/app/views/misc.ejs" />
         <option value="$PROJECT_DIR$/app/js/mapInit.js" />
         <option value="$PROJECT_DIR$/dist/css/styles.css" />
         <option value="$PROJECT_DIR$/app/views/contact.ejs" />
-        <option value="$PROJECT_DIR$/app/views/index.ejs" />
         <option value="$PROJECT_DIR$/app/views/partials/header.ejs" />
         <option value="$PROJECT_DIR$/app/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/app/views/misc.ejs" />
+        <option value="$PROJECT_DIR$/app/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app/js/additionalCalc.js" />
       </list>
     </option>
   </component>
@@ -230,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,11 +265,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/myPortfolioWorks/myPortfolio2018/1/template1/gulpfile.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/myPortfolioWorks/myPortfolio2018/1/template1/app/views/index.ejs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/partials" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -346,11 +341,12 @@
       <workItem from="1541613009942" duration="1782000" />
       <workItem from="1541695247561" duration="6293000" />
       <workItem from="1541858479792" duration="14738000" />
+      <workItem from="1541918780440" duration="5869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228639000" />
+    <option name="totallyTimeSpent" value="234508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -386,13 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -575,38 +564,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/mapInit.js">
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/misc.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="113" column="14" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/columns.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="305">
+          <caret line="5" column="50368" selection-start-line="5" selection-start-column="50368" selection-end-line="5" selection-end-column="50368" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="128">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -617,41 +592,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/app/js/mapInit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="5" column="50368" selection-start-line="5" selection-start-column="50368" selection-end-line="5" selection-end-column="50368" />
-          <folding>
-            <element signature="e#58844#59044#2" expanded="true" />
-            <element signature="e#59252#59401#2" expanded="true" />
-            <element signature="e#59903#60049#2" expanded="true" />
-            <element signature="e#60350#60516#1" expanded="true" />
-            <element signature="e#72112#72355#2" expanded="true" />
-            <element signature="e#73222#73471#2" expanded="true" />
-            <element signature="e#100341#100531#2" expanded="true" />
-            <element signature="e#100577#100767#2" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/misc.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="122" selection-start-line="122" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/columns.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/typography.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="434">
           <caret line="106" column="58" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="299" column="24" lean-forward="true" selection-start-line="299" selection-start-column="24" selection-end-line="299" selection-end-column="24" />
+        <state relative-caret-position="385">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/app/js/additionalCalc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>

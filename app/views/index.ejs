@@ -12,12 +12,11 @@
 
 <main class="col-lg-8 offset-lg-2  main">
 
-     <section class="offset-lg-1 col-lg-10" >
-        <h5 class="welcome-txt">
-            Hello! Welcome to my blog. I am Serendipity. Here on this blog you will be able to find my photography work as well as everything I like across the internet world.
-
-        </h5>
-     </section>
+             <section class="offset-lg-1 col-lg-10" >
+                <h5 class="welcome-txt">
+                    Hello! Welcome to my blog. I am Serendipity. Here on this blog you will be able to find my photography work as well as everything I like across the internet world.
+                </h5>
+             </section>
 
             <section >
                 <article class="entry">
@@ -31,10 +30,13 @@
                             <a  class="credit-link" href="#">Photography </a> |
                             <a  class="credit-link" href="#"> 4 Comments</a>
                         </figcaption>
-                        <img class="img-fluid" src="../img/art/post1.jpg" />
+                        <div class="row figure-container">
+                            <img class="img-fluid" id="img-fluid-1" src="../img/art/post1.jpg" />
+                        </div>
                     </figure>
+                    <!-- см в самом низу скрипт для вычисления верхнего отступа для текста в зависимости от размеров img -->
 
-                    <p class="entry-text offset-1 col-10">
+                    <p class="entry-text offset-1 col-10 " id="entry-text-1" >
                         A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
                         I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
                         I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
@@ -357,6 +359,9 @@
             </section>
 
 
-        </main>
+    <script type="text/javascript" src="../js/additionalCalc.js"></script>
+
+
+</main>
 
 <% include partials/footer %>

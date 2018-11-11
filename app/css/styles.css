@@ -185,6 +185,11 @@ body {
         margin-top: 37%;
         color: transparent;
         text-align: center; }
+  .entry .figure-container {
+    position: relative; }
+    .entry .figure-container .img-fluid {
+      position: absolute;
+      left: 0; }
   .entry .videoframe {
     border: none; }
   .entry .dial1 {
@@ -398,7 +403,8 @@ body {
   color: #ca6d6d;
   text-align: left;
   font-family: "MarketDecoRegular", sans-serif;
-  color: #6b6b6b; }
+  color: #6b6b6b;
+  padding-bottom: 0.3rem; }
 
 .nav-item > .active {
   background: #eee !important; }

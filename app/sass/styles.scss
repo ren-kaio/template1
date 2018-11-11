@@ -308,6 +308,19 @@ body {
 
   }
 
+
+  .figure-container {
+    position: relative;
+    .img-fluid {
+      position: absolute;
+      left:0;
+
+    }
+  }
+
+
+
+
 .videoframe {
   border: none;
 }
@@ -572,6 +585,8 @@ body {
 
    @include heading-style;
    color: $font-regular-color;
+   padding-bottom:0.3rem;
+
 
  }
 
