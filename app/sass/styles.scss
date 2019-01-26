@@ -201,6 +201,11 @@ body {
 }
 
 
+// общие стили
+  .no-pads {
+    padding: 0;
+  }
+
 
 
 
@@ -276,19 +281,18 @@ body {
     padding-left: 0;
     padding-right: 0;
 
-
     .hover-helper {
       position: absolute;
-      top:0;
+      top: 0;
       bottom: 0;
-      left:0;
-      right:0;
+      left: 0;
+      right: 0;
       transition-property: background;
       transition-duration: 1s;
 
       &:hover {
         cursor: pointer;
-        background: rgba(0,0,0, 0.7);
+        background: rgba(0, 0, 0, 0.7);
 
         .fa-plus-circle {
           color: #ccc;
@@ -305,6 +309,13 @@ body {
       }
     }
 
+  }
+}
+
+  .bw-pic {
+    display: block;
+    text-align: center;
+    padding: 0 5rem;
 
   }
 
@@ -312,290 +323,226 @@ body {
   .figure-container {
     position: relative;
     .img-fluid {
-      position: absolute;
-      left:0;
+      // position: absolute;
+      //left:0;
+      //right: 0;
+      //top:20px;
+      width: 100%;
 
+      // }
     }
-  }
 
 
+    .videoframe {
+      border: none;
+    }
 
+    .dial1 {
+      background: $dial-bg1;
+    }
+    .dial2 {
+      background: $dial-bg2;
+    }
 
-.videoframe {
-  border: none;
-}
+    .credits {
 
-
-  .dial1 {
-    background: $dial-bg1;
-  }
-  .dial2 {
-    background: $dial-bg2;
-  }
-
-
-
-  .credits {
-
-  }
-
-}
-
-.blog-buttons {
-  text-align: center;
-  .btn {
-
-    @include btn-style;
-
-
-  }
-
-}
-
-
-.related {
-  .related-heading, .gallery-heading {
-    @include heading-style;
-  }
-
-  .gallery-heading {
-    font-size: .875rem; //14px
-  }
-}
-
-
-
-.comments {
-
-
-
-
-  padding: 6rem 2rem;
-
-
-
-  .comments-heading, .card-title {
-    @include heading-style;
-  }
-
-  .date {
-    font-size: .75rem; //12px
-  }
-
-  .card-text {
-    @include txt-style;
-
-
-  }
-
-  .reply-comment-link {
-    color: $link-hover-color;
-
-
-    &:hover {
-      text-decoration: none;
-      color: $font-regular-color;
     }
 
   }
 
-}
-
-
-.leaveReply {
-  .reply-header {
-    @include heading-style;
-
-  }
-
-  .form-comment {
-    @include txt-style;
-    font-size: .75rem; //12px
-
-  }
-
-  .reply-form {
+  .blog-buttons {
+    text-align: center;
     .btn {
+
       @include btn-style;
 
     }
 
-    .form-control {
+  }
 
+  .related {
+    .related-heading, .gallery-heading {
+      @include heading-style;
+    }
 
+    .gallery-heading {
+      font-size: .875rem; //14px
+    }
+  }
 
-      position: relative;
+  .comments {
 
-      &::placeholder {
-        color: $heading-color;
-      }
+    padding: 6rem 2rem;
 
-      &::after { // разобраться почему не работает ???!!!!
-        content: "*";
-        position: absolute;
-        right: -5rem;
+    .comments-heading, .card-title {
+      @include heading-style;
+    }
 
-        top: 1rem;
-        color: $heading-color;
+    .date {
+      font-size: .75rem; //12px
+    }
+
+    .card-text {
+      @include txt-style;
+
+    }
+
+    .reply-comment-link {
+      color: $link-hover-color;
+
+      &:hover {
+        text-decoration: none;
+        color: $font-regular-color;
       }
 
     }
 
+  }
 
+  .leaveReply {
+    .reply-header {
+      @include heading-style;
+
+    }
+
+    .form-comment {
+      @include txt-style;
+      font-size: .75rem; //12px
+
+    }
+
+    .reply-form {
+      .btn {
+        @include btn-style;
+
+      }
+
+      .form-control {
+
+        position: relative;
+
+        &::placeholder {
+          color: $heading-color;
+        }
+
+        &::after { // разобраться почему не работает ???!!!!
+          content: "*";
+          position: absolute;
+          right: -5rem;
+
+          top: 1rem;
+          color: $heading-color;
+        }
+
+      }
+
+    }
 
   }
 
-}
+  .welcome-txt {
+    padding-bottom: 3rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2rem;
+    color: lighten($font-regular-color, 20%);
+
+  }
+
+  // ABOUT PAGE
+
+  .text-title {
+    @include heading-style;
+
+  }
+
+  //------------------------
+
+  // CONTACT PAGE
+
+  .contact-section {
+    line-height: 1.8rem;
+
+    .reply-form {
+      padding: 2rem;
+      background: #eee;
+      margin-bottom: 2rem;
+
+    }
+
+    .large-textarea {
+      height: 12rem;
+    }
+  }
+
+  .form-contact::placeholder {
+    color: $font-regular-color !important;
+  }
+
+  //------------------------
+
+  // TYPOGRAPHY PAGE
+  .highlight1 {
+    color: $heading-color;
+    text-decoration: underline dotted $heading-color;
+  }
+  .highlight2 {
+    text-decoration: underline dotted $heading-color;
+  }
+
+  .list, .typo-title {
+    text-align: left !important;
+  }
+
+  .list {
+    margin-left: 1.5rem;
+
+  }
+
+  .main-typo {
+    padding: 3rem;
+    text-align: justify;
+  }
+
+  .typo-txt {
+    &:first-letter {
+      font-size: 2.5rem;
+      float: left;
+      padding: .3rem;
+    }
+  }
+
+  // COLUMNS PAGE
+
+  .smaller {
+    font-size: .92rem;
+  }
 
 
-.welcome-txt {
-  padding-bottom: 3rem;
-  font-weight: lighter;
-  text-align: center;
-  line-height: 2rem;
-  color: lighten($font-regular-color, 20%);
 
-}
+  // MISC PAGE
 
-
-// ABOUT PAGE
-
-.text-title {
-  @include heading-style;
-
-}
-
-//------------------------
-
-
-// CONTACT PAGE
-
-.contact-section {
-  line-height: 1.8rem;
-
-  .reply-form {
-    padding: 2rem;
+  // добавляем свойств к нативным стилям бутстрапа
+  .tab-pane {
+    padding: 1.2rem;
     background: #eee;
-    margin-bottom: 2rem;
+    border: none;
+  }
+
+  .nav-link {
+
+    @include heading-style;
+    color: $font-regular-color;
+    padding-bottom: 0.3rem;
 
   }
 
-
-  .large-textarea {
-    height: 12rem;
+  .nav-item > .active {
+    background: #eee !important;
   }
-}
 
-.form-contact::placeholder {
-  color: $font-regular-color !important;
-}
-
-//------------------------
-
-
-// TYPOGRAPHY PAGE
- .highlight1 {
-   color: $heading-color;
-   text-decoration: underline dotted $heading-color;
- }
- .highlight2 {
-   text-decoration: underline dotted $heading-color;
- }
-
-.list, .typo-title {
-  text-align: left !important;
-}
-
-.list {
-  margin-left: 1.5rem;
-
-}
-
-.main-typo {
- padding: 3rem;
-  text-align: justify;
-}
-
-.typo-txt {
-  &:first-letter {
-    font-size: 2.5rem;
-    float: left;
-    padding: .3rem;
-  }
- }
-
-
-
-// COLUMNS PAGE
-
-.smaller {
-  font-size: .92rem;
-}
-
-//------------------------
-
-// COLUMNS2-FLEXBOX PAGE STYLES:
-// extra part - flexbox styles
-
-.flex-container1 {
-  display: flex;
-  height: 500px;
-  width: 1111px;
-  background: #0b2e13;
-
-}
-
-.child {
-  width: 32px;
-  height: 88px;
-  background: #4e555b;
-  margin: auto; // flexbox magic - ровно по центру
-
-}
-
-
-.flex-container2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;
-}
-
-.flex-item {
-  width: 200px;
-  height: 120px;
-
-}
-
-
-//------------------------
-
-
-// MISC PAGE
-
-
-// добавляем свойств к нативным стилям бутстрапа
- .tab-pane {
-   padding: 1.2rem;
-   background:#eee;
-   border: none;
- }
-
- .nav-link {
-
-   @include heading-style;
-   color: $font-regular-color;
-   padding-bottom:0.3rem;
-
-
- }
-
-.nav-item>.active {
-  background:#eee !important;
-}
-
-.toggle {
-    background:#eee !important;
+  .toggle {
+    background: #eee !important;
     & .nav-text {
       display: block;
     }
@@ -603,28 +550,25 @@ body {
       color: $font-regular-color;
     }
 
+    .toggle-btn {
 
-  .toggle-btn {
+      @include heading-style;
+      color: $font-regular-color;
 
-    @include heading-style;
-    color: $font-regular-color;
+      & + .toggle-text {
+        display: none;
+      }
 
-    & + .toggle-text {
-      display: none;
+      &.active {
+        background: darken(#eee, 15%) !important;
+
+      }
+
+      &.active + .toggle-text {
+        display: block;
+      }
+
     }
-
-    &.active {
-      background: darken(#eee, 15%) !important;
-
-    }
-
-    &.active + .toggle-text {
-      display: block;
-    }
-
-  }
-
-
 
     /*
 
@@ -637,126 +581,134 @@ body {
     }
     */
 
+  }
 
-}
-
-
-
-.boxes .alert {
-  border-radius: 0;
-  padding: 1rem;
-
-}
-
-
-#map-canvas {
-  width: 100%;
-  height: 300px;
-  margin-bottom: -2rem;
-  border: 2px solid #fff;
-}
-
-//---------
-
-
-// FOOTER
-
-
-
-// footer styles:
-
-
-.footer {
-
-}
-
-
-// STICKY FOOOOTERRRR!!!!!!!!
-html {
-  min-height: 100%;
-  position: relative;
-
-}
-
-body {
-  /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
-
-   margin-bottom: 30rem; /* 140px  - for the sticky footer */
-}
-/* footer */
-
-/* sticky footer  */
-
-.footer {
-  position: absolute;
-  bottom: 2rem;
-  width:100%;
-  height: 28rem;
-
-  //other footer styles:
-  padding: 3rem;
-  background: $footer-bg;
-
-}
-
-// other footer-elems-related styles
-
-.footer-item {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  color: $footer-color;
-  line-height: 1.6875rem;
-
-
-  .footer-item-header {
-    padding-top: .2rem;
-    padding-bottom: .2rem;
-    color: $heading-color;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.2rem;
-
+  .boxes .alert {
+    border-radius: 0;
+    padding: 1rem;
 
   }
 
-  .footer-search-field {
-    width: 10rem;
-    background: $search-field-bg;
-    color: #fff;
-    border: none;
-    padding: .5rem;
-    text-transform: capitalize;
+  #map-canvas {
+    width: 100%;
+    height: 300px;
+    margin-bottom: -2rem;
+    border: 2px solid #fff;
+  }
+
+  //---------
+
+  // FOOTER
+
+  // footer styles:
+
+  .footer {
 
   }
 
-  .footer-list {
-    padding-left:1rem;
+  // STICKY FOOOOTERRRR!!!!!!!!
+  html {
+    min-height: 100%;
+    position: relative;
+
   }
 
-  .footer-link {
+  body {
+    /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
+
+    margin-bottom: 30rem; /* 140px  - for the sticky footer */
+  }
+  /* footer */
+
+  /* sticky footer  */
+
+  .footer {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    height: 28rem;
+
+    //other footer styles:
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: $footer-bg;
+  }
+
+  // other footer-elems-related styles
+
+  .footer-item {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     color: $footer-color;
+    line-height: 1.6875rem;
 
-    &:hover {
-      color: lighten($footer-color, 30%);
-      text-decoration: none;
+    .footer-item-header {
+      padding-top: .2rem;
+      padding-bottom: .2rem;
+      color: $heading-color;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .footer-search-field {
+      width: 10rem;
+      background: $search-field-bg;
+      color: #fff;
+      border: none;
+      padding: .5rem;
+      text-transform: capitalize;
+
+    }
+
+    .footer-list {
+      padding-left: 1rem;
+    }
+
+    .footer-link {
+      color: $footer-color;
+
+      &:hover {
+        color: lighten($footer-color, 30%);
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  .archive {
+    .arch-list {
+      padding: 0;
+      padding-left: 1rem;
     }
   }
 
-
+  .footer-copyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 1rem;
+    height: 4rem;
+    margin: 0;
+    background: $copyright-bg;
+    font-size: .875rem; // 14px
   }
 
-.footer-copyright {
-  position: absolute;
-  left:0;
-  right:0;
-  bottom: 0;
-  height: 4rem;
-  padding-top: 1rem;
-  margin: 0;
-  background: $copyright-bg;
-  font-size: .875rem; // 14px
+
+
+
+.footer-wrapper {
+  padding-top: 2.5rem;
 
 }
+
+
+//other styles - modified
+.blog-buttons-pagination {
+  padding-bottom: 1rem;
+  }
+
 
 
 
