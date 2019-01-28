@@ -82,6 +82,7 @@ body {
     background: #fff !important;
 
   }
+
 }
 
 
@@ -131,6 +132,12 @@ body {
   @include txt-style;
   padding-top: 5rem;
   margin-bottom: 0;
+
+  @media(max-width:640px) {
+    padding-top: 0;
+
+  }
+
 }
 
 
@@ -246,7 +253,32 @@ body {
   background: #f3f3f3;
 }
 
+.navbar-navigation {
+  @media(min-width: 680px) {
+    padding-top: 4rem; //? не работает??
+  }
+
+
+  .contact {
+
+  }
+
+}
+
 .search-form {
+  .search-label {
+
+    @media(max-width: 680px ) {
+      width: 7rem;
+      margin-right: .3rem;
+    }
+    @media(min-width: 992px)  {
+      width: 5rem;
+
+    }
+
+
+  }
 
 }
 
@@ -617,6 +649,34 @@ body {
     /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
 
     margin-bottom: 30rem; /* 140px  - for the sticky footer */
+
+    @media(min-width:1540px)  and (max-width:1700px) {
+      margin-bottom: 32rem;
+
+    }
+
+    @media(min-width:1200px)  and (max-width:1540px) {
+      margin-bottom: 38rem;
+
+    }
+
+    @media(min-width:992px) and (max-width:1200px) {
+      margin-bottom: 42rem;
+    }
+
+    @media(min-width:768px) and (max-width:992px) {
+      margin-bottom: 47rem;
+    }
+
+    @media(min-width:576px) and (max-width:768px) {
+      margin-bottom: 50rem;
+    }
+
+    @media(min-width:480px) and (max-width:576px) {
+      margin-bottom: 67rem;
+    }
+
+
   }
   /* footer */
 
@@ -624,9 +684,39 @@ body {
 
   .footer {
     position: absolute;
-    bottom: 2rem;
-    width: 100%;
-    height: 28rem;
+   bottom: 2rem;
+   width: 100%;
+   height: 28rem;
+
+
+    @media(min-width:1540px)  and (max-width:1700px) {
+      height: 30rem;
+
+    }
+
+    @media(min-width:1200px)  and (max-width:1540px) {
+      height: 36rem;
+
+    }
+
+    @media(min-width:992px) and (max-width:1200px) {
+      height: 40rem;
+        }
+
+    @media(min-width:768px) and (max-width:992px) {
+      height: 45rem;
+        }
+
+    @media(min-width:576px) and (max-width:768px) {
+      height: 48rem;
+        }
+
+    @media(min-width:480px) and (max-width:576px) {
+      height: 65rem;
+        }
+
+
+
 
     //other footer styles:
     padding-left: 3rem;
@@ -649,6 +739,13 @@ body {
       text-transform: uppercase;
       font-weight: bold;
       font-size: 1.2rem;
+
+      @media(max-width:992px) {
+        font-size: 1rem;
+      }
+      @media(max-width:768px) {
+        font-size: .8rem;
+      }
     }
 
     .footer-search-field {
@@ -693,6 +790,7 @@ body {
     margin: 0;
     background: $copyright-bg;
     font-size: .875rem; // 14px
+    text-align: center;
   }
 
 
@@ -709,6 +807,12 @@ body {
   padding-bottom: 1rem;
   }
 
+// в bootstrap нет .offset-xs-0, добавила сама этот класс в свои стили
+.offset-xs-0 {
+  @media(min-width:576px) and (max-width:991px) {
+    margin-left:0;
+  }
+}
 
 
 

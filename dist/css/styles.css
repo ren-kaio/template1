@@ -56,6 +56,9 @@ body {
   color: #6b6b6b;
   padding-top: 5rem;
   margin-bottom: 0; }
+  @media (max-width: 640px) {
+    .wrapper {
+      padding-top: 0; } }
 
 .header {
   background: #f3f3f3; }
@@ -139,6 +142,19 @@ body {
   padding: 15px;
   padding-top: 3rem;
   background: #f3f3f3; }
+
+@media (min-width: 680px) {
+  .navbar-navigation {
+    padding-top: 4rem; } }
+
+@media (max-width: 680px) {
+  .search-form .search-label {
+    width: 7rem;
+    margin-right: .3rem; } }
+
+@media (min-width: 992px) {
+  .search-form .search-label {
+    width: 5rem; } }
 
 .large-textarea {
   height: 12rem; }
@@ -425,6 +441,24 @@ body {
   /* font-size: 14px; - по умолчанию, font-size для корневого элемента в документе так и равен 14px */
   margin-bottom: 30rem;
   /* 140px  - for the sticky footer */ }
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    body {
+      margin-bottom: 32rem; } }
+  @media (min-width: 1200px) and (max-width: 1540px) {
+    body {
+      margin-bottom: 38rem; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    body {
+      margin-bottom: 42rem; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    body {
+      margin-bottom: 47rem; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    body {
+      margin-bottom: 50rem; } }
+  @media (min-width: 480px) and (max-width: 576px) {
+    body {
+      margin-bottom: 67rem; } }
 
 /* footer */
 /* sticky footer  */
@@ -436,6 +470,24 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
   background: #2e2e2e; }
+  @media (min-width: 1540px) and (max-width: 1700px) {
+    .footer {
+      height: 30rem; } }
+  @media (min-width: 1200px) and (max-width: 1540px) {
+    .footer {
+      height: 36rem; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .footer {
+      height: 40rem; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .footer {
+      height: 45rem; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .footer {
+      height: 48rem; } }
+  @media (min-width: 480px) and (max-width: 576px) {
+    .footer {
+      height: 65rem; } }
 
 .footer-item {
   padding-top: .5rem;
@@ -449,6 +501,12 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.2rem; }
+    @media (max-width: 992px) {
+      .footer-item .footer-item-header {
+        font-size: 1rem; } }
+    @media (max-width: 768px) {
+      .footer-item .footer-item-header {
+        font-size: .8rem; } }
   .footer-item .footer-search-field {
     width: 10rem;
     background: #111;
@@ -477,10 +535,15 @@ body {
   height: 4rem;
   margin: 0;
   background: #111;
-  font-size: .875rem; }
+  font-size: .875rem;
+  text-align: center; }
 
 .footer-wrapper {
   padding-top: 2.5rem; }
 
 .blog-buttons-pagination {
   padding-bottom: 1rem; }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .offset-xs-0 {
+    margin-left: 0; } }
